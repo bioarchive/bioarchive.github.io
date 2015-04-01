@@ -20,7 +20,9 @@
   <body>
       <div id="header">
         <nav>
-          <li class="fork"><a href="https://github.com/bioarchive">View On GitHub</a></li>
+          <li class="fork">
+            <a href="https://github.com/bioarchive">View On Github</a>
+          </li>
         </nav>
       </div><!-- end header -->
 
@@ -29,31 +31,55 @@
       <section>
         <div id="title">
           <h1>aRchive</h1>
-          <p>Reproducibility of Bioconductor package versions in Galaxy</p>
+          <p>Enabling reproducibility of Bioconductor package versions (for Galaxy)</p>
           <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/bioarchive">bioarchive</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Maintainer <a href="https://twitter.com/nitesh1989">nturaga</a></span>
+          <span class="credits left">
+            Project maintained by
+            <a href="http://galaxyproject.org/">the Galaxy project</a>
+          </span>
+          <span class="credits right">
+            Hosted on Github Pages &mdash; Maintainer
+            <a href="https://twitter.com/nitesh1989">nturaga</a>
+          </span>
         </div>
-
-        <h3>
-<a id="future-home-of-the-archive" class="anchor" href="#future-home-of-the-archive" aria-hidden="true"><span class="octicon octicon-link"></span></a>Future home of the aRchive</h3>
       </section>
 
-      <h3>Description</h3>
+      <h3>What is aRchive?</h3>
 
       <p align="left">
-        aRchive stores versions of BioConductor packages to promote interoperability between Galaxy and Bioconductor. The main idea is to allow users access to all the versions of current BioConductor packages.</p>
+        The <a href="http://www.bioconductor.org/" target="_blank">Bioconductor</a>
+        suite provides bioinformatics tools in the form of R packages, which
+        have frequent version upgrades. However, once a Bioconductor package is
+        upgraded, it is difficult to retrieve previous versions and that causes
+        interoperability challenges between Galaxy and Bioconductor. The
+        <a href="https://toolshed.g2.bx.psu.edu/">Galaxy Tool Shed</a> enables
+        Galaxy administrators to easily install desired versions of tools,
+        including Bioconductor packages. However, not all Bioconductor package
+        versions are available. To address this, we have implemented this “aRchive”
+        - a repository of all versions of all Bioconductor packages and can be
+        easily retrieved.
+      </p>
 
-      <h3>Main goals</h3>
-      <ol>
-       <li> Promote interoperability between Galaxy and BioConductor users.</li>
-        
-       <li> Create an archive versions of BioC packages and host in a public repository.</li>
-        
-       <li> Promote reproducibility within Galaxy instances using BioConductor packages.</li>
-      </ol>
+      <h3>Accessing the aRchive</h3>
+      <div>
+        Packages stored in the aRchive are available in an S3 bucket in a
+        folder-like structure. Click below button to access the list of
+        available packages and navigate to the desired package and package
+        version.
+      </div>
+      <p class="btn">
+        <a href="http://bioarchive.s3-website-us-east-1.amazonaws.com/">
+          Access the aRchive documents here
+        </a>
+      </p>
+
+      <h3>Problems? Comments? Want to help?</h3>
+      <p>
+        Please use <a href="https://github.com/issues">Github Issues</a> to
+        get in touch.
+      </p>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+
   </body>
 </html>

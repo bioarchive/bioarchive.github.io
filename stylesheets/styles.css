@@ -852,39 +852,6 @@ section #title .credits.right {
 }
 
 
-<<<<<<< HEAD
-
-# Custom styles
-.archive-button {
-  padding-bottom: 30px;
-}
-.btn {
-  background: #749619;
-  background-image: -webkit-linear-gradient(top, #749619, #527f0e);
-  background-image: -moz-linear-gradient(top, #749619, #527f0e);
-  background-image: -ms-linear-gradient(top, #749619, #527f0e);
-  background-image: -o-linear-gradient(top, #749619, #527f0e);
-  background-image: linear-gradient(to bottom, #749619, #527f0e);
-  -webkit-border-radius: 3;
-  -moz-border-radius: 3;
-  border-radius: 3px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #8fb84d;
-  background-image: -webkit-linear-gradient(top, #8fb84d, #527f0e);
-  background-image: -moz-linear-gradient(top, #8fb84d, #527f0e);
-  background-image: -ms-linear-gradient(top, #8fb84d, #527f0e);
-  background-image: -o-linear-gradient(top, #8fb84d, #527f0e);
-  background-image: linear-gradient(to bottom, #8fb84d, #527f0e);
-  text-decoration: none;
-}
-=======
 /*
   Custom styles
 */
@@ -931,4 +898,4 @@ section #title .credits.right {
   -o-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
   box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
 }
->>>>>>> f5b378377372d7d1d7563decc9bba36f84862b7d
+
